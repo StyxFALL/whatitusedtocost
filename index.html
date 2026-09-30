@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What It Used To Cost</title>
+<style>
+  :root { --bg:#0a0c10; --fg:#f2f4f8; --dim:#9aa3b2; --accent:#f4692b; --line:#1b2030; }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) { --bg:#fbfbfd; --fg:#14171d; --dim:#5b6474; --line:#e3e6ee; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,system-ui,sans-serif; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 72px 16px 96px; }
+  h1 { font-size: clamp(30px,6vw,46px); line-height:1.12; letter-spacing:-1px; margin:0 0 12px; }
+  h2 { font-size: 20px; margin: 40px 0 10px; }
+  .lead { color: var(--dim); font-size: clamp(17px,2.4vw,20px); margin: 0 0 36px; }
+  ul { padding-left: 20px; }
+  li { margin: 7px 0; }
+  a { color: var(--accent); }
+  .box { border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:26px 0; }
+  footer { margin-top:56px; padding-top:20px; border-top:1px solid var(--line); color:var(--dim); font-size:14px; }
+  code { background:rgba(127,127,127,.14); padding:1px 5px; border-radius:4px; font-size:.9em; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>What It Used To Cost</h1>
+  <p class="lead">Prices measured in hours of work — then, now, and where you live.</p>
+
+  <p>Every episode takes an official price series and divides it by the wage, so the unit is
+  time rather than money. That is the one measure that lets you compare 1980 with today, and
+  one country with another.</p>
+
+  <h2>What gets measured</h2>
+  <ul>
+    <li>How many hours of work a thing costs — groceries, rent, a car, a doctor, a degree</li>
+    <li>What a fixed amount of money used to buy, and what it buys now</li>
+    <li>Inflation and the value of money — and why those two say the same thing</li>
+    <li>Purchasing power across countries: where is expensive, where is cheap</li>
+  </ul>
+
+  <h2>Where the numbers come from</h2>
+  <ul>
+    <li>U.S. Bureau of Labor Statistics — consumer prices and average hourly earnings</li>
+    <li>FRED (Federal Reserve Bank of St. Louis) and the U.S. Energy Information Administration</li>
+    <li>Eurostat — prices, price levels, net earnings, spending structure</li>
+    <li>International Labour Organization — hourly and median earnings</li>
+    <li>World Bank, International Monetary Fund, Bank for International Settlements</li>
+  </ul>
+
+  <h2>How the numbers are handled</h2>
+  <ul>
+    <li>The method is stated in every episode and the series identifiers are in every description</li>
+    <li>Months that were never published are shown as gaps, never filled in</li>
+    <li>Where the answer depends on the starting year, both years are shown</li>
+    <li>Forecasts are cut out; the last actual year is named on screen</li>
+    <li>When a measure cannot be used, the episode says so instead of substituting something else</li>
+  </ul>
+  <p>No forecasts. No advice. No verdicts on policy. No assets recommended.</p>
+
+  <div class="box">
+    <strong>Watch:</strong> <a href="https://www.youtube.com/@WhatItUsedToCost">youtube.com/@WhatItUsedToCost</a><br>
+    <strong>Privacy:</strong> <a href="privacy.html">Privacy policy</a>
+  </div>
+
+  <footer>This site exists to document the channel's method and sources.</footer>
+</div>
+</body>
+</html>
